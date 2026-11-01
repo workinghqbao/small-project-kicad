@@ -1,7 +1,36 @@
-# KiCad-generated files and directories.
+# ==========================================
+# 1. Thư mục Backup & Lịch sử (Dựa trên cây thư mục)
+# ==========================================
+_restore_backup_*/
 .history/
-*-backups/
-_autosave-*
-fp-info-cache
+
+# ==========================================
+# 2. File tạm, File Khóa & Cài đặt cá nhân KiCad
+# ==========================================
+*.lck
 ~*.lck
-*.kicad_prl
+*.prl
+*.tmp
+fp-info-cache
+
+# ==========================================
+# 3. File Backup KiCad (.bak)
+# ==========================================
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# ==========================================
+# 4. File nén rác (Zip trong connector/)
+# ==========================================
+*.zip
+
+# ==========================================
+# 5. File hệ điều hành Windows
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
